@@ -43,9 +43,9 @@ const about = {
 };
 
 // PROJECTS SECTION
-// Setting up project length will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+// Setting up project length will automatically fetch you that number of recently updated projects, or you can set this field to 0 to show none.
 //      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
+// If you want to display specific projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
@@ -60,14 +60,10 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Git", value: 65 },
+    { name: "Linux", value: 55 },
+    { name: "Bash", value: 60 },
+    { name: "JavaScript", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -86,30 +82,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for data science internship opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "hunterk@mtu.edu",
 };
-
-const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
