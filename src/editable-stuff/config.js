@@ -35,47 +35,24 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/hunterking.JPG"),
   imageSize: 375,
-  message: "homepage": "https://<your-username>.github.io/home"
-    "My name is Hunter King. I’m a freshman student from Michigan Technological University majoring in Data Science. I'm most passionate about making it into the world of sports, and my goal is to pursue my passion of sports, especially football, through an increasingly advanced understanding of technological concepts. I currently play college football as well.",
+  message: "homepage": "https://kingerkoder.github.io/home"
+    "My name is Hunter King. I’m a freshman student from Michigan Technological University, majoring in Data Science. My passion lies in pursuing a career in sports, particularly football, and I aim to enhance my understanding of technological concepts to support this goal. I currently play college football as well.",
+  resume: require("../editable-stuff/Resume.pdf"),
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+// Setting up project length will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
-};
-
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
+  gitHubUsername: "kingerkoder", //i.e."johnDoe12Gh"
+  reposLength: 1,
+  specificRepos: [kingerkoder.github.io],
 };
 
 // SKILLS SECTION
@@ -110,7 +87,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  email: "hunterk@mtu.edu",
 };
 
 const experiences = {
